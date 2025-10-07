@@ -1,8 +1,10 @@
  import java.util.Scanner;
+ import java.util.Random;
 
 public class hello {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
+        Random random = new Random ();
         // System.out.println("hello world");
         // System.out.println("i am abhi");
 
@@ -123,8 +125,132 @@ public class hello {
 
         // System.out.println(result);
 
-    
+        // String item;
+        // double price;
+        // int quantity;
+        // char currency = '$';
+        // double total;
 
+        // System.out.print("what item would you like to buy : ");
+        // item = scanner.nextLine();
+
+        // System.out.print("What is the prince for each? ");
+        // price  = scanner.nextDouble();
+
+        // System.out.print("Hoe many would you like : ");
+        // quantity = scanner.nextInt();
+
+        // total = price * quantity;
+
+        // System.out.println("\nyou have bought" + quantity + " " + item );
+        // System.out.println("your total is " + currency + total);
+
+
+        // int age ;
+        // String name;
+        // boolean  isStudent;
+
+        // System.out.print("Enter your name :");
+        // name = scanner.nextLine();
+
+        // System.out.print("Enter your age : ");
+        // age = scanner.nextInt();
+
+        // System.out.print("Are you a Student (true/false): ");
+        // isStudent = scanner.nextBoolean();
+
+        // if(age >= 65){
+        //     System.out.println("you are an senior! ");
+        // }else if(age >= 18){
+        //     System.out.println("you are an adult! ");
+        // }else if(age < 0){
+        //     System.out.println("you have't been born yet! ");
+        // }else if(age == 0){
+        //     System.out.println("You are a baby");
+        // }else{
+        //     System.out.println("you are a child ");
+        // }
+
+        // if(isStudent){
+        //     System.out.println("You are a student");
+        // }else{
+        //     System.out.println("You are not a student");
+        // }
+
+
+
+        // if(name.isEmpty()){
+        //     System.out.println("you did't enter your name! ");
+        // }else{
+        //     System.out.println("hello " + name + "!");
+        // }
+
+
+        // double number;
+
+        // number = random.nextDouble();
+        // System.out.println(number);
+
+
+        // boolean isHeads;
+
+        // isHeads = random.nextBoolean();
+
+        // if(isHeads){
+        //     System.out.println("HEADS");
+        // }else{
+        //     System.out.println("TAILS");
+        // }
+
+
+        // System.out.println(Math.PI);
+        // System.out.println(Math.E);
+
+        // double result;
+
+        // result = Math.pow(2 , 5);
+        // result = Math.abs(-5);
+        // result = Math.sqrt(9);
+        // result = Math.round(3.14);
+        // result = Math.ceil(2.78);
+        // result = Math.floor(2.99);
+        // result = Math.max(2 , 5);
+        // result = Math.min(2 , 5);
+
+        // System.out.println(result);
+
+
+        // double a;
+        // double b;
+        // double c;
+
+        // System.out.print("Enter the length of side A:");
+        // a = scanner.nextDouble();
+
+        // System.out.print("Enter the length of side B:");
+        // b = scanner.nextDouble();
+
+        // c = Math.sqrt(Math.pow(a , 2) + Math.pow(b , 2));
+
+        // System.out.println("The hypotenuse (side c) is " + c);
+
+
+        // double radius;
+        // double circumference;
+        // double area;
+        // double volume;
+
+        // System.out.print("Enter the radius: ");
+        // radius = scanner.nextDouble();
+
+        // circumference = 2 + Math.PI * radius;
+        // area = Math.PI * Math.pow(radius, 2);
+        // volume = (4.0/3.0) * Math.PI * Math.pow(radius, 3);
+
+        // System.out.println("The circumference is " + circumference + "cm");
+        // System.out.println("The area is : " + area +  "cm²");
+        // System.out.println("The volum is : " + volume + "cm³");
+    
 
 
         scanner.close();
