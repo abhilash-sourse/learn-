@@ -484,10 +484,10 @@ public class hello {
 
                             //switch method
 
-        String day ;
+        // String day ;
 
-        System.out.print("Enter the day of week: ");
-        day = scanner.nextLine();
+        // System.out.print("Enter the day of week: ");
+        // day = scanner.nextLine();
 
         // switch(day){
                         //1 method
