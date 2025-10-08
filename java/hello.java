@@ -404,6 +404,124 @@ public class hello {
 
                     //weight convertes
 
+        // double weight;
+        // double newweight;
+        // int choice;
+
+        // System.out.println("Weight conversion program");
+
+        // System.out.println("1. Counvert lbs to kgs");
+        // System.out.println("2. Counvert kgs to lbs");
+
+        // System.out.print("Choose an option: ");
+        // choice = scanner.nextInt();
+
+        // if(choice == 1){
+        //     System.out.print("Enter the wight in lbs: ");
+        //     weight = scanner.nextDouble();
+        //     newweight = weight * 0.453592;
+        //     System.out.printf("The new wight is kgs is %.2f:" , newweight);
+        // }else if(choice == 2){
+        //     System.out.print("Enter the wight in kgs: ");
+        //     weight = scanner.nextDouble();
+        //     newweight = weight * 2.20462;
+        //     System.out.printf("The new wight is lbs is %.2f:" ,newweight);
+        // }else{
+        //     System.out.println("That was a valid choice:");
+        // }
+
+
+                        //ternary operator ? = Return 1 of 2 value if a condition is true
+
+        // int income = 20000;
+
+        // double taxRate = (income >= 40000) ? 0.25 : 0.15;
+
+        // System.out.println(taxRate);
+
+                        // 2 method
+
+        // int hours = 9;
+
+        // String timeOfDay = (hours < 12) ? "A.M." : "P.M.";
+
+        // System.out.println(timeOfDay);
+
+                        //3 method
+
+        // int number = 7;
+
+        // String evenOrOdd = (number % 2 == 0) ? "EVEN" : "ODD";
+
+        // System.out.println(evenOrOdd);
+
+                        //4 method
+        // int score = 95;
+
+        // String passOfFail = (score >= 60 )  ? "PASS" : "FAIL";
+
+        // System.out.println(passOfFail);
+
+
+                        //temperature 
+
+        // double temp;
+        // double newTemp;
+        // String unit;
+
+        // System.out.print("Enter the temperature :");
+        // temp = scanner.nextDouble();
+
+        // System.out.print("Convert to celsius or Fahrenheit? (C or F) : ");
+        // unit = scanner.next().toUpperCase();
+
+        // System.out.print(temp);
+        // System.out.println(unit);
+
+        // newTemp = (unit.equals("C")) ? (temp - 32) * 5 / 9 : (temp * 5 / 9) + 32;
+
+        // System.out.println(newTemp + "°");
+
+                            //switch method
+
+        String day ;
+
+        System.out.print("Enter the day of week: ");
+        day = scanner.nextLine();
+
+        // switch(day){
+                        //1 method
+            // case "Monday" : System.out.println("It is weekday ");
+            // case "Tuesday" : System.out.println("It is weekday ");
+            // case "Wednesday" : System.out.println("It is weekday ");
+            // case "Thursday" : System.out.println("It is weekday ");
+            // case "Friday" : System.out.println("It is weekday ");
+            // case "Saturday" : System.out.println("It is weekend ");
+            // case "Sunday" : System.out.println("It is weekend ");
+            // default : System.err.println(day +" is not a day");
+    // }
+
+                        //2 method
+
+        //     switch(day) {
+        //         case "Monday":
+        //         case "Tuesday":
+        //         case  "Wednesday":
+        //         case "Thursday":
+        //         case "Friday" :
+        //             System.out.println("It is a weekday");
+        //             break;
+        //         case "Saturday":
+        //         case "Sunday" :
+        //             System.out.println("It is a weekend");
+        //             break;
+        //         default :
+        //             System.out.println(day + " is not a valid day");
+        // }
+
+
+        
+
 
 
 
