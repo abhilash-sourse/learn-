@@ -83,7 +83,26 @@ public class array {
     // }
 
 
+                    // 2d-array
+    // String[][] abhi ={{"apple","orange","banana"},
+    //                 {"potato","onion","carrot"},
+    //                 {"chicken","pork","beef","fish"}};
 
+    //                 abhi[0][0] = "abhi";
+    // for(String[] foods : abhi){
+    //     for(String food : foods){
+    //         System.out.print(food + " ");
+    //     }
+    //     System.out.println();
+    // }
+
+    // char[][] tele = {{'1','2','3'},{'4','5','6'},{'7','8','9'},{'*','0','#'}};
+    // for(char[] row : tele){
+    //     for(char number : row){
+    //         System.out.print(number + " ");
+    //     }
+    //     System.out.println();
+    }
 
     scanner.close();
 
