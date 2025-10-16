@@ -2,9 +2,15 @@ package oops_java;
 
 public class rectangle extends abs{
 
-    @Override
+    double radius;
+
+    rectangle(double radius){
+        this.radius = radius;
+    }
+
+
     double area(){
-        return 0;
+        return Math.PI;
     }
     
 }
