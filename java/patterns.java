@@ -89,18 +89,7 @@ public class patterns {
 
 
 
-                    // 8
-
-        int i, z = 1;
-        for( i =1;i<=n;i++){
-        for(int j=n-1;j<=i;j++){
-            System.out.print(" ");
-        }for(int k=1;k<=z;k++){
-            System.out.print("*");
-        }
-        z +=2;
-        System.out.println();
-    }
+                    
     }
     
 }
