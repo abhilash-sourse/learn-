@@ -1,10 +1,12 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class array {
     public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
                     //array
-    // String[] fruits = {"apple","abhi","lash","abhilash","banana","orange"};
+    String[] fruits = {"apple","abhi","lash","abhilash","banana","orange"};
     // System.out.println(fruits[1]);
 
 
@@ -19,6 +21,7 @@ public class array {
 
     // Arrays.sort(fruits);
     // Array.fill(fruits, "abhi");
+
     
 
                             //user array
@@ -66,7 +69,7 @@ public class array {
 
 
     // int[] numbers = {1,2,3,4,5,6,7};
-    // int target = 6;
+    // int target = 1;
     // boolean isFound = false;
 
     // for(int i = 0;i<numbers.length;i++){
@@ -102,7 +105,7 @@ public class array {
     //         System.out.print(number + " ");
     //     }
     //     System.out.println();
-    }
+    // }
 
     scanner.close();
 

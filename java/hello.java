@@ -225,7 +225,7 @@ public class hello {
         // result = Math.abs(-5);
         // result = Math.sqrt(9);
         // result = Math.round(3.14);
-        // result = Math.ceil(2.78);
+        // result = Math.ceil(3.78);
         // result = Math.floor(2.99);
         // result = Math.max(2 , 5);
         // result = Math.min(2 , 5);
@@ -379,7 +379,7 @@ public class hello {
     //     System.out.println("Hello " + name);
     // }
 
-    // System.out.println(name);
+    // System.out.println(lastIndex);
 
 
                 // Substrings
