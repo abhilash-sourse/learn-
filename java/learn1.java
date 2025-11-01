@@ -1,5 +1,11 @@
 public class learn1 {
-    public static void main(String[] args) {
-     
-    }
+   public int rol = 100;
+
+   public void std(){
+    rol =120;
+   }
+
+   public void printroll(){
+    System.out.println(rol);
+   }
 }
