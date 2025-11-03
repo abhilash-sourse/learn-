@@ -1,6 +1,20 @@
 public class learn {
-    public static void main(String args[]){
-        learn1 s = new learn1();
-        System.out.println(s.rol);
+    int rollNumber;
+    String name;
+    boolean isAttended;
+
+    public learn(int rollNumber){
+        this.rollNumber = rollNumber;
     }
+    public void setStudentAtt(boolean flag){
+        if(!isAttended)
+            isAttended = flag;
+        System.out.println("teacher assigned attendence to student");
+    }
+
+    public boolean get(){
+        System.err.println("Teacher accessed student attendence");
+        return isAttended;
+    }
+
 }

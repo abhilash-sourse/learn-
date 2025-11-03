@@ -1,11 +1,10 @@
 public class learn1 {
-   public int rol = 100;
+   public static void main(String[] args) {
+       learn a = new learn(101);
+      //  a.isAttended = true;
+       a.setStudentAtt(true);
+       a.get();
 
-   public void std(){
-    rol =120;
    }
 
-   public void printroll(){
-    System.out.println(rol);
-   }
 }
