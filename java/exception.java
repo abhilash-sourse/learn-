@@ -50,7 +50,7 @@ public class exception {
     }
 
     public static void method1(){
-        method();
+        method1();
     }
     
 }
